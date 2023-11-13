@@ -1,0 +1,109 @@
+html,body{
+    height:100%;
+    margin:0;
+    font-size:16px;
+    font-family:"Lato",sans-serif;
+    font-weight:400;
+    line-height:1.8em;
+    color:#666;
+}
+
+.navbar1{
+    min-height:70px;
+}
+
+#textToSpace{
+    margin-left:990px;
+    margin-right:0px;
+}
+
+.pimg1{
+    background-image:url(images/image1.png);
+    /*min-height:100%;*/
+    /*min-height:600px;*/
+    min-height:100%;
+}
+
+.pimg4{
+    background-image:url(images/image4.jpg);
+    min-height:100%;
+}
+
+.pimg12{
+    background-image:url(images/image1.png);
+    min-height:400px;
+}
+
+.pimg2{
+    background-image:url(images/image2.png);
+    min-height:400px;
+}
+
+.pimg3{
+    background-image:url(images/image3.png);
+    min-height:400px;
+}
+
+.pimg5{
+    background-image:url(images/image5.png);
+    /*min-height:100%;*/
+    min-height:400px;
+}
+
+.pimg6{
+    background-image:url(images/image6.png);
+    min-height:400px;
+}
+
+.pimg7{
+    background-image:url(images/image7.jpg);
+    min-height:400px;
+}
+
+.pimg1,.pimg2,.pimg3,.pimg4,.pimg5,.pimg6,.pimg7{
+    position:relative;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    /*One line to create the Parallax Effect-
+    "background-attachment:fixed;"-Image will be fixed But Elements will scroll over the Image*/
+    background-attachment:fixed;
+}
+
+.ptext{
+    position:absolute;
+    top:50%;
+    width:100%;
+    text-align:center;
+    color:black;
+    font-size:27px;
+    letter-spacing:3px;
+    /*text-transform:uppercase;*/
+}
+
+.textBg{
+    background-color:#313534;
+    color:#fff;
+    padding:20px;
+}
+
+.section{
+    padding:50px 80px;
+    text-align:center;
+
+}
+
+.section-dark1{
+    background-color:#282e34;
+    color:#ddd;
+}
+
+.section-light{
+    background-color:#f4f4f4;
+    color:#666;
+}
+
+.copyright{
+    color:#EAF6F6;
+    font-size:0.75rem;
+}
